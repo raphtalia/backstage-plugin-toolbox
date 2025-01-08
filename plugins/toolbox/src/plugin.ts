@@ -9,7 +9,10 @@ import {
 import { rootRouteRef } from './routes';
 import { createCardExtension } from '@backstage/plugin-home-react';
 import { defaultTools } from './components/Root';
-import { toolboxApiRef, ToolboxClient } from './api';
+import {
+  toolboxApiRef,
+  ToolboxClient,
+} from '@drodil/backstage-plugin-toolbox-react/src/api';
 
 export const toolboxPlugin = createPlugin({
   id: 'toolbox',

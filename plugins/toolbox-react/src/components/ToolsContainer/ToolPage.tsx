@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { ContentHeader } from '@backstage/core-components';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
-import { useToolboxTranslation } from '@drodil/backstage-plugin-toolbox-react/hooks';
+import { useToolboxTranslation } from '../../hooks';
 import { styled } from '@mui/material/styles';
 
 const ToolContainer = styled('div')(({ theme }) => ({

@@ -5,7 +5,7 @@ import {
   Header,
   Page,
 } from '@backstage/core-components';
-import { useFavoriteStorage } from '@drodil/backstage-plugin-toolbox-react/utils/hooks';
+import { useFavoriteStorage } from '../../utils/hooks';
 import SearchIcon from '@mui/icons-material/Search';
 import { defaultTools } from './tools';
 import OpenInNew from '@mui/icons-material/OpenInNew';
@@ -26,10 +26,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Button from '@mui/material/Button';
 import TabPanel from '@mui/lab/TabPanel';
 import TabContext from '@mui/lab/TabContext';
-import {
-  useBackendTools,
-  useToolboxTranslation,
-} from '@drodil/backstage-plugin-toolbox-react/hooks';
+import { useBackendTools, useToolboxTranslation } from '../../hooks';
 
 type TabInfo = {
   tab: ReactElement;
